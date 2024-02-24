@@ -8,19 +8,19 @@ export const Slider = () => {
       id: 1,
       name: "Acerca de U.E. General Rafael Urdaneta",
       description: `Descripción`,
-      img: "../src/assets/Ue/about.jpeg",
+      img: "../public/Ue/about.jpeg",
     },
     {
       id: 2,
       name: "General Rafael Urdaneta",
       description: `Descripción`,
-      img: "../src/assets/GRU.jpg",
+      img: "../public/GRU.jpg",
     },
     {
       id: 3,
       name: "Luis Beltran Prieto Figueroa",
       description: `La escuela no puede ser reflejo de la sociedad que tenemos; la escuela debe ser reflejo de la sociedad que queremos`,
-      img: "../src/assets/Ue/LB.jpg",
+      img: "../public/Ue/LB.jpg",
     },
   ];
 

@@ -15,7 +15,7 @@ export const Footer = () => {
           marginY={-1}
         >
           <Grid item xs={2}>
-            <img src="../src/assets/logo.escuela.jpg" width={160} />
+            <img src="../public/logo.escuela.jpg" width={160} />
             <Typography variant="h6" color={"#f3f3f3"} paddingTop={2}>
               U.E. General Rafael Urdaneta
             </Typography>

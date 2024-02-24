@@ -15,12 +15,13 @@ export const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const small = useMediaQuery("(max-width: 800px)");
+  const small = useMediaQuery("(max-width: 850px)");
 
   return (
     <Grid
       container
       flex={"flex"}
+      width={"100vw"}
       justifyContent={small ? "center" : "space-between"}
       paddingX={4}
       paddingY={1}
@@ -30,10 +31,10 @@ export const Header = () => {
       zIndex={"100"}
       position={isFixed ? "fixed" : ""}
     >
-      <Grid container xs={small ? 11 : 5} wrap="nowrap" alignItems={"center"}>
+      <Grid container xs={small ? 11 : 8} wrap="nowrap" alignItems={"center"}>
         <img
           width={small ? "30px" : "50px"}
-          src="../src/assets/logo.jpg"
+          src="../public/logo.jpg"
           alt="logo"
         />
         <Typography

@@ -6,22 +6,22 @@ const activity = [
   {
     id: 1,
     description: "Vacunación",
-    img: "../src/assets/Ue/vacunacion02.jpeg",
+    img: "../public/Ue/vacunacion02.jpeg",
   },
   {
     id: 2,
     description: "Strong",
-    img: "../src/assets/Ue/strong.jpeg",
+    img: "../public/Ue/strong.jpeg",
   },
   {
     id: 3,
     description: "Cultivo",
-    img: "../src/assets/Ue/cultivo.jpeg",
+    img: "../public/Ue/cultivo.jpeg",
   },
   {
     id: 4,
     description: "Premilitar",
-    img: "../src/assets/Ue/premilitar.jpeg",
+    img: "../public/Ue/premilitar.jpeg",
   },
 ];
 

@@ -25,8 +25,9 @@ export const Item = (props) => {
           item
           spacing={0}
           padding={4}
-          md={8}
-          display={small ? "none" : "inherit"}
+          // md={8}
+          display={small ? "none" : "flex"}
+          flexDirection="column"
         >
           <Typography variant="h2">{props.item.name}</Typography>
           <Typography variant="body1" paddingY={2}>
