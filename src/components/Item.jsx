@@ -20,23 +20,23 @@ export const Item = (props) => {
         color={"#f3f3f3"}
         wrap="nowrap"
         bgcolor={"#2d2d2d"}
+        maxHeight={'500px'}
       >
         <Grid
           item
           spacing={0}
           padding={4}
-          // md={8}
           display={small ? "none" : "flex"}
           flexDirection="column"
         >
-          <Typography variant="h2">{props.item.name}</Typography>
-          <Typography variant="body1" paddingY={2}>
+          <Typography variant="h3">{props.item.name}</Typography>
+          <Typography variant="body1" paddingY={2} maxHeight={'450px'} width={'35vw'}>
             {props.item.description}
           </Typography>
         </Grid>
         <CardMedia
           component="img"
-          height={small ? "250px" : "450px"}
+          height={small ? "250px" : ""}
           image={props.item.img}
         />
       </Grid>

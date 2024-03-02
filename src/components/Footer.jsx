@@ -3,7 +3,9 @@ import XIcon from "@mui/icons-material/X";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import useMediaQuery from "@mui/material";
 export const Footer = () => {
+  const small = useMediaQuery("(max-width: 800px)");
   return (
     <>
       <footer width={"100vw"}>

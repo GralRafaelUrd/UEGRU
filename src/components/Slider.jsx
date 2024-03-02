@@ -7,13 +7,13 @@ export const Slider = () => {
     {
       id: 1,
       name: "Acerca de U.E. General Rafael Urdaneta",
-      description: `Descripción`,
+      description: `Se Identifica como una institución pública, dependiente del órgano rector Ministerio del Poder Popular para la Educacion Venezolana, que integra a todos los niños, niñas en edad preescolar y escolar, al servicio de las comunidades que giran en su entorno, de dependencia Nacional integrada en el territorio escolar N° 81405005 del Centro de desarrollo Escolar Rafael Urdaneta.`,
       img: "../public/Ue/about.jpeg",
     },
     {
       id: 2,
       name: "General Rafael Urdaneta",
-      description: `Descripción`,
+      description: `Rafael José Urdaneta Farías (La Cañada de Urdaneta, 24 de octubre de 1788-París, 23 de agosto de 1845) fue un militar, prócer, estratega y político venezolano. Ejerció de facto la presidencia de la Gran Colombia entre el 4 de septiembre de 1830 al 2 de mayo de 1831, asumiendo el poder en representación de Simón Bolívar.`,
       img: "../public/GRU.jpg",
     },
     {
