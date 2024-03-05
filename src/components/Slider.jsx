@@ -1,6 +1,7 @@
 import Carousel from "react-material-ui-carousel";
 import { Item } from "./Item";
 import { Grid } from "@mui/material";
+import about from "../../public/Ue/about.jpeg";
 
 export const Slider = () => {
   const items = [
@@ -8,7 +9,8 @@ export const Slider = () => {
       id: 1,
       name: "Acerca de U.E. General Rafael Urdaneta",
       description: `Se Identifica como una institución pública, dependiente del órgano rector Ministerio del Poder Popular para la Educacion Venezolana, que integra a todos los niños, niñas en edad preescolar y escolar, al servicio de las comunidades que giran en su entorno, de dependencia Nacional integrada en el territorio escolar N° 81405005 del Centro de desarrollo Escolar Rafael Urdaneta.`,
-      img: "../public/Ue/about.jpeg",
+      img: about,
+      // img: "../public/Ue/about.jpeg",
     },
     {
       id: 2,
