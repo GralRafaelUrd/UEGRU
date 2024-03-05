@@ -1,27 +1,31 @@
 import Grid from "@mui/material/Grid";
 import { ActividadesItems } from "./ActividadesItems";
 import Typography from "@mui/material/Typography";
+import vacunacion2 from "../../public/Ue/vacunacion02.jpeg";
+import strong from "../../public/Ue/strong.jpeg";
+import cultivo from "../../public/Ue/cultivo.jpeg";
+import premilitar from "../../public/Ue/premilitar.jpeg";
 
 const activity = [
   {
     id: 1,
     description: "Vacunación",
-    img: "../public/Ue/vacunacion02.jpeg",
+    img: vacunacion2,
   },
   {
     id: 2,
     description: "Strong",
-    img: "../public/Ue/strong.jpeg",
+    img: strong,
   },
   {
     id: 3,
     description: "Cultivo",
-    img: "../public/Ue/cultivo.jpeg",
+    img: cultivo,
   },
   {
     id: 4,
     description: "Premilitar",
-    img: "../public/Ue/premilitar.jpeg",
+    img: premilitar,
   },
 ];
 

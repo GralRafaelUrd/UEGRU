@@ -3,6 +3,7 @@ import { Button, Link, Typography, Grid, useMediaQuery } from "@mui/material";
 import XIcon from "@mui/icons-material/X";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import logo from "../../public/logo.jpg";
 export const Header = () => {
   const [isFixed, setIsFixed] = useState(false);
 
@@ -32,11 +33,7 @@ export const Header = () => {
       position={isFixed ? "fixed" : ""}
     >
       <Grid container xs={small ? 11 : 8} wrap="nowrap" alignItems={"center"}>
-        <img
-          width={small ? "30px" : "50px"}
-          src="../public/logo.jpg"
-          alt="logo"
-        />
+        <img width={small ? "30px" : "50px"} src={logo} alt="logo" />
         <Typography
           variant={small ? "h6" : "h4"}
           color="initial"

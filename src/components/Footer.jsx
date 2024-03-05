@@ -3,6 +3,7 @@ import XIcon from "@mui/icons-material/X";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import logo from "../../public/logo.jpg";
 export const Footer = () => {
   return (
     <>
@@ -15,7 +16,7 @@ export const Footer = () => {
           marginY={-1}
         >
           <Grid item xs={2}>
-            <img src="../public/logo.escuela.jpg" width={160} />
+            <img src={logo} width={160} />
             <Typography variant="h6" color={"#f3f3f3"} paddingTop={2}>
               U.E. General Rafael Urdaneta
             </Typography>
