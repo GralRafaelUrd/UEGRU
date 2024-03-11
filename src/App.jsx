@@ -4,7 +4,12 @@ import "@fontsource/roboto/400.css";
 
 export const App = () => {
   return (
-    <Grid justifyContent="center" alignContent="stretch" width="100%">
+    <Grid
+      justifyContent="center"
+      alignContent="stretch"
+      width="100%"
+      overflow="hidden"
+    >
       <Header />
       <Slider />
       <Actividades />
