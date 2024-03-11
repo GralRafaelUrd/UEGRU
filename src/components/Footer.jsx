@@ -16,7 +16,8 @@ export const Footer = () => {
         gap={small ? 3 : 0}
         bgcolor={"#2f2f2f"}
         padding={4}
-        marginY={small ? 36 : 0}
+        width="100%"
+        // marginY={small ? 36 : 0}
       >
         <Grid item xs={2}>
           <img src={logo} width={160} />

@@ -22,7 +22,7 @@ export const Header = () => {
     <Grid
       container
       flex={"flex"}
-      width={"100vw"}
+      width="100%"
       justifyContent={small ? "center" : "space-between"}
       paddingX={4}
       paddingY={1}

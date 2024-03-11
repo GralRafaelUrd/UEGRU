@@ -33,7 +33,6 @@ export const Slider = () => {
       alignItems="center"
       alignContent="center"
       paddingBottom={"12px"}
-      marginX={-1}
       bgcolor={"#2d2d2d"}
     >
       <Carousel>

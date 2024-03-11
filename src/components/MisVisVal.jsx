@@ -5,8 +5,8 @@ export const MisVisVal = () => {
   return (
     <>
       <Grid paddingY={5} paddingX={2} container marginY={10}>
-        <Grid paddingBottom={2} marginBottom={3}>
-          <Typography variant="h2" color="initial">
+        <Grid paddingBottom={2} marginBottom={3} width="100vw">
+          <Typography variant="h2" color="initial" textAlign="center">
             Misión, Visión y Valores
           </Typography>
         </Grid>
@@ -16,11 +16,8 @@ export const MisVisVal = () => {
           direction="row"
           justifyContent="space-evenly"
           wrap="wrap"
-          maX={5}
         >
-          <CardContent
-            sx={"background:#2d2d2d; border-radius:15px;margin:25px;"}
-          >
+          <CardContent sx={"background:#2d2d2d; margin:25px;"}>
             <Typography
               paddingY={2}
               align="center"
@@ -49,9 +46,7 @@ export const MisVisVal = () => {
               personal escolar.
             </Typography>
           </CardContent>
-          <CardContent
-            sx={"background:#2d2d2d; border-radius:5px;margin:25px;"}
-          >
+          <CardContent sx={"background:#2d2d2d; margin:25px;"}>
             <Typography
               paddingY={2}
               align="center"
@@ -77,9 +72,7 @@ export const MisVisVal = () => {
               y niñas sin escolaridad.
             </Typography>
           </CardContent>
-          <CardContent
-            sx={"background:#2d2d2d; border-radius:5px;margin:25px;"}
-          >
+          <CardContent sx={"background:#2d2d2d; margin:25px;"}>
             <Typography
               paddingY={2}
               align="center"
